@@ -1,0 +1,16 @@
+# Python Program to find Surface Area and volume of Cuboid
+
+# inputs
+length = 30
+width = 20
+height = 15
+
+# Calculate the Surface Area
+SA = 2 * (length * width + length * height + width * height)
+
+# Calculate the Volume
+Volume = length * width * height
+
+# FInal output
+print("\n The Surface Area of a Cuboid = %.2f " %SA)
+print(" The Volume of a Cuboid = %.2f" %Volume)
