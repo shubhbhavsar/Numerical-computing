@@ -1,6 +1,6 @@
 # Python Program to find Surface Area and volume of Cuboid
-
-# inputs
+## Queation 1
+#inputs
 length = 30
 width = 20
 height = 15
@@ -14,3 +14,58 @@ Volume = length * width * height
 # FInal output
 print("\n The Surface Area of a Cuboid = %.2f " %SA)
 print(" The Volume of a Cuboid = %.2f" %Volume)
+
+
+##Question 2
+##Inputs
+length_1 = 30
+length_2 = 40
+length_3 = 50
+width = 20
+height = 15
+
+# Calculate the Surface Area
+Surface_Area_1 = 2 * (length_1 * width + length * height + width * height)
+Surface_Area_2 = 2 * (length_2 * width + length * height + width * height)
+Surface_Area_3 = 2 * (length_3 * width + length * height + width * height)
+
+# Calculate the Volume
+Volume = length_1 * width * height
+Volume = length_2 * width * height
+Volume = length_3 * width * height
+
+
+# FInal output
+#for length of 30cm
+print("\n The Surface Area of a Cuboid = %.2f " %Surface_Area_1)
+print(" The Volume of a Cuboid = %.2f" %Volume_1)
+
+#for length of 40cm
+print("\n The Surface Area of a Cuboid = %.2f " %Surface_Area_2)
+print(" The Volume of a Cuboid = %.2f" %Volume_2)
+
+#for length of 50cm
+print("\n The Surface Area of a Cuboid = %.2f " %Surface_Area_3)
+print(" The Volume of a Cuboid = %.2f" %Volume_3)
+
+
+## QUestion 3
+
+What is unit testing in Python?
+Unit Testing in Python :- Unit testing is a software testing method by which individual units of source code 
+are putunder various tests to determine whether they are fit for use (Source). 
+It determines and ascertains the quality of your code.
+
+What is profiling in Python?
+cProfile and profile provide deterministic profiling of Python programs. A profile is a set of statistics that describes how 
+often and for how long various parts of the program executed. These statistics can be formatted into reports via the pstats module.
+Python provides many excellent modules to measure the statistics of a program. This makes us know where the program is spending too
+much time and what to do inorder to optimize it. It is better to optimize the code inorder to increase the efficiency of a program. 
+So, perform some standard tests to ensure optimization and we can improve the program inorder to increase the efficiency.
+Using Timers:Timers are easy to implement and they can be used anywhere at a program to measure the execution time. 
+By using timers we can get the exact time and we can improve the program where it takes too long. 
+Time module provides the methods inorder to profile a program.
+
+There is a module in Python's standard library called unittest which contains tools for testing your code. 
+Unit testing checks if all specific parts of your function's behavior are correct, 
+which will make integrating them together with other parts much easier.
